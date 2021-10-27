@@ -79,7 +79,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 		const Verived = "0@s.whatsapp.net"
 		const txt = mek.message.conversation
 		const botNumber = zeroyt7.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `6285157072227@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `62881024358619@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		const totalchat = await zeroyt7.chats.all()
@@ -115,7 +115,7 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 				group: 'Fitur Khusus Grup !!'
 			}
 		}
-		faketeks = 'Jangan Lupa Subrek Hanif Farhan N' //Ganti Aja Nama Luh
+		faketeks = 'Jangan Lupa Subrek Aril Store N' //Ganti Aja Nama Luh
 		const isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -242,8 +242,8 @@ const adyt = {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `𝘊𝘳𝘦𝘢𝘵𝘰𝘳 : Hanif𝘎𝘢𝘯𝘴 么`,  //Ganti Aja Nama Luh
-                            orderTitle: `𝘊𝘳𝘦𝘢𝘵𝘰𝘳 : Hanif𝘎𝘢𝘯𝘴 么`,
+                            message: `𝘊𝘳𝘦𝘢𝘵𝘰𝘳 : Aril store么`,  //Ganti Aja Nama Luh
+                            orderTitle: `𝘊𝘳𝘦𝘢𝘵𝘰𝘳 : Aril Store 么`,
                             thumbnail: zero, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -1071,7 +1071,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, Verived, `Jangan Lupa Subscribe Zero YT7`)
+costum(buffer, sticker, Verived, `Jangan Lupa Subscribe Aril YT7`)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
@@ -1930,13 +1930,13 @@ case 'dana':
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "DANA : GAK OPEN", faketeks, but, mek)
+sendButton(from, "DANA : 0881024358619", faketeks, but, mek)
 break
 case 'ovo':
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "OVO : GAK OPEN", faketeks, but, mek)
+sendButton(from, "OVO : 0881024358619", faketeks, but, mek)
 break
 				
 //━━━━━━━━━━━━━━━[ AKHIR DARI SEMUA FITUR ]━━━━━━━━━━━━━━━━━//
