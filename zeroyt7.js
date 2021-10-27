@@ -10,10 +10,10 @@
 
 //==========[ EDIT TERSERAH LUH ERROR ULANGI LAGI ]==========
 
-owner = '6285157072227' //Ganti Nomor Luh
-botname = 'Shan-Bots' //Ganti Nama Bot Luh
+owner = '62881024358619' //Ganti Nomor Luh
+botname = 'Aril-Bots' //Ganti Nama Bot Luh
 zerokey = 'ZeroYT7' //Gak Usah Di Ganti
-ownername = 'HanifGanz' //Ganti Nama Owner
+ownername = 'Aril Store' //Ganti Nama Owner
 
 const { fetchJosn, fetchText } = require('./lib/fetcher')
 const { color, bgcolor } = require('./lib/color')
